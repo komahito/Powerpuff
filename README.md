@@ -3,14 +3,14 @@
 ## init
 
 STEP1
-- Own self being constructed
-- Any object with SubOwnSelf object constructed
+- Own self (me) being constructed
+- Any object with Sub2Me object constructed
 --------------------------------------------------------------
 STEP2
-- ArrayList<SubOwnSelf> constructed
+- ArrayList<Sub2Me> constructed
 --------------------------------------------------------------
 STEP3
-- Any of SubOwnSelf objects being subscribed to SubOwnSelf array list
+- Any of Sub2Me objects being subscribed to Sub2Me array list
 
 ## update
 
