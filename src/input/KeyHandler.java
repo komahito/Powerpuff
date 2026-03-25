@@ -4,7 +4,10 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.util.ArrayList;
 
-public class KeyHandler implements KeyListener {
+import main.InitFactor;
+import main.UpdateFactor;
+
+public class KeyHandler implements KeyListener, InitFactor, UpdateFactor {
     ArrayList<SubKeyListener> subArr = null;
 
     public KeyHandler () {
